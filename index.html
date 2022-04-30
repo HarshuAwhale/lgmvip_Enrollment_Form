@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internship enrollment system</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1>Internship Enrollment Form</h1>
+        </div>
+
+        <div class="form">
+            <div class="input_field">
+                <label>Name: </label>
+                <input type="text" name="name" id="name" placeholder="Ex.- John Doe" required><br>
+            </div>
+
+            <div class="input_field">
+                <label>Email-id: </label>
+                <input type="email" name="email" id="mail" placeholder="Ex.- john@mail.com" required><br>
+            </div>
+            <div class="input_field">
+                <label>Age: </label>
+                <input type="number" name="age" id="age" placeholder="Ex.- 10" required><br>
+            </div>
+            <div class="input_field">
+                <label>Enter your Website: </label>
+                <input type="url" name="web" id="web" required><br>
+            </div>
+            <div class="input_field">
+                <label>upload profile resume: </label>
+                <input type="file" name="file" id="file" required><br>
+            </div>
+            <!-- <div class="input_field">
+                <label>Gender:</label><input type="radio" name="gender" id="male"> Male <br>
+                <input type="radio" name="gender" id="female"> Female <br>
+            </div> -->
+            <!-- <div class="input_field">
+                <label> Skills:</label><br>
+                <input type="checkbox" id="Skills" required>HTML
+                <input type="checkbox" id="Skills" required>JAVA
+                <input type="checkbox" id="Skills" required> CSS <br>
+            </div> -->
+            <button id="btn" class="btn" >Enroll now</button>
+            <!-- <input type="button" name="btn" class="btn" id="btn" value="Enroll Student" onclick="displayDetails()"> -->
+            
+
+        </div>
+
+
+        <!-- <div class="vl"></div> -->
+
+        <div class="info">
+        <table border="4" id="display" class="list">
+			<thead>
+				<tr class="list">
+					<th> Name</th>
+					<th>Email-id</th>
+					<th>Age</th>
+                    <th>website</th>
+                    <!-- <th>Gender</th> -->
+                    <th>Resume</th>
+                    <!-- <th>skills</th> -->
+                    
+				</tr>
+			</thead>
+            
+		</table>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
